@@ -19,7 +19,7 @@ void cube(int[] NumCube)
 void PrintArray(int[] coll)
 {
     int count = coll.Length;
-    int index = 0;
+    int index = 1;
     while(index < count)
     {
         Console.Write(coll[index]+ " ");
